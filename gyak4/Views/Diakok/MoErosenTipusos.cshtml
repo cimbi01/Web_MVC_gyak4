@@ -1,0 +1,14 @@
+﻿@Model List<gyak4.Models.Diak>;
+@{
+    ViewBag.Title = "MoErosenTipusos";
+}
+
+<h2>MoErosenTipusos</h2>
+@foreach (var item in @Model)
+{
+    <ul>
+        <li>
+            @item.Nev
+        </li>
+    </ul>
+}

@@ -1,0 +1,14 @@
+﻿@using gyak4.Models;
+@{
+    ViewBag.Title = "MoViewBag";
+}
+
+<h2>MoViewBag</h2>
+@foreach (var item in (List<Diak>)@ViewBag.diakok)
+{
+    <ul>
+        <li>
+            @item.Nev
+        </li>
+    </ul>
+}
