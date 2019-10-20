@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<form action="/KorForm/Index" method="post">
+    <div class="form-group">
+        <label>Kör sugara</label>
+        <input type="number" name="r" value="" class="form-control"/>
+    </div>
+    <div class="form-group">
+        <input type="submit" name="submit" value="Tovább" class="btn btn-primary"/>
+    </div>
+    <p>@ViewBag.eredmeny</p>
+</form>
+

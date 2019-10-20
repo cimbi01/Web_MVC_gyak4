@@ -122,6 +122,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\DiakokController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\KorFormController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -167,6 +168,7 @@
     <Content Include="Views\Diakok\MoViewData.cshtml" />
     <Content Include="Views\Diakok\MoViewBag.cshtml" />
     <Content Include="Views\Diakok\MoErosenTipusos.cshtml" />
+    <Content Include="Views\KorForm\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
